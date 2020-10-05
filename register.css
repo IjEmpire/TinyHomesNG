@@ -1,0 +1,68 @@
+*{
+
+}
+main{
+	text-align: center;
+	height: 609px;
+	background: url(images/cubes.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.register-wrapper{
+	text-align: center;
+	background: rgba(255,255,255,.2);
+	margin: 0px 250px 47px 50px ;
+	font-family: comic sans ms;
+	padding: 20px;
+}
+.register-wrapper h2{
+	border: 10px solid gray;
+	background: rgba(0,0,0,.2);
+	border-radius: 25px 0 25px;
+	color: lightseagreen;
+	padding: 10px 10px 20px;
+}
+.register-wrapper form{
+	text-align: left;
+	background: rgba(0,0,0,.2);
+	padding: 10px 10px 0px;
+}
+.register-wrapper form label{
+	color: gray;
+	font-size: 13px;
+}
+.register-wrapper form input, select{
+	border: none;
+	font-weight: light;
+	font-size: 12px;
+	text-decoration: none;
+	background: rgba(0,0,0,0.3);
+	width: 180px;
+	height: 30px;
+	color: #e6e2da;
+}
+.register-wrapper form select{
+	width: 100px;
+}
+.register-wrapper form select option{
+	height: 10px;
+	font-family: comic sans ms;
+	font-weight: bold;
+	color: #1d1d1f;
+}
+
+.register-wrapper button{
+	font-family: comic sans ms;
+	margin: 1px 0 0;
+	padding: 0px 50px 0;
+	background: rgba(0,0,0,.6);
+	color: orange;
+	font-weight: bolder;
+}
+.register-wrapper button:hover{
+	background: orange;
+	color: black;
+	transition: 2s;
+}
+

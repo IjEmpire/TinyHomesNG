@@ -1,0 +1,89 @@
+
+
+.mainwrap{
+	text-align: center;
+	height: 610px;
+	background: url(images/cube3d.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+.subwrap{
+	background: rgba(0,0,0,.2);
+	margin: 100px ;
+	font-family: comic sans ms;
+	padding: 20px;
+}
+.subwrap p.text1{
+	border-radius: 50px;
+	background: rgba(0,0,0,.1);
+	border: 3px solid white;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 30px;
+	margin: 0 0 30px 0;
+	padding-top: 0;
+}
+.subwrap p.text1:hover{
+	color: rgba(255, 127, 0, .95);
+	background: black;
+	transition: 2s;
+}
+.subwrap h5{
+	font-size: 1.15em;
+	color: gray;
+	margin: 1px 10px 0px 0;
+	padding: 0 5px 10px;
+}
+.subwrap h5:hover{
+	color: #d8e3dd;
+	transition: 2s;
+}
+.subwrap form{
+	padding: 2px 2px 5px 2px;
+}
+.subwrap form input{
+	text-indent: none;
+	border-width: 0px;
+	background: transparent;
+	text-align: left;
+	font-size: 13px;
+	font-weight: light;
+	font-style: normal;
+	border: 2px solid white;
+	color: orange;
+	font-family: comic sans ms;
+	padding: 7px 20px;
+}
+.subwrap form input.c-box{
+	cursor: pointer;
+}
+.subwrap form input.c-box, label{
+	padding: 2px;
+	font-size: 12px;
+	color: rgba(255, 255, 255, .5);
+	margin: 1px 0px 1px 0;
+	cursor: pointer;
+}
+
+.subwrap #log-in a{
+	color: cyan;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	border: 2px solid white;
+	padding: 0 2px 1px;
+}
+.subwrap #log-in a:hover{
+	background: black;
+	color: orange;
+	border-color: gray;
+	transition: 2s;
+}
+.subwrap p a{
+	font-weight: light;
+	font-size: 14px;
+	text-decoration: none;
+	color: gray;
+}
+

@@ -1,0 +1,577 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav{
+	background: lightseagreen fixed;
+	border: 1px solid transparent;
+	transition-timing-function: linear;
+}
+nav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style: none;
+	flex-wrap: wrap;
+}
+nav ul li.logo a{
+	text-decoration: none;
+	align-items: center;
+	color: #f5f5f5;
+	font-size: 40px;
+	font-family: comic sans ms;
+	font-weight: bold;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 0px 0px 2px 0px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+nav ul li.logo a:hover{
+	background: #e2e3cf;
+	color: #080807;
+	transition: 2s;
+}
+
+nav ul div.items{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: inline-flex;
+	align-items: center;
+	margin-left: 150px;
+}
+nav ul div.items a{
+	margin: 0 3px;
+	color: #f5f5f5;
+	font-family: comic sans ms;
+	text-decoration: none;
+	padding: 0 7px;
+
+	border-radius: 3px;
+	font-size: 15px;
+	cursor: pointer;
+	font-weight: bold;
+}
+nav ul div.items a:hover{
+	border-radius: 5px 0 5px;
+	background: #e2e3cf;
+	color: #080807;
+	transition: 2s;
+}
+
+nav ul li.search-icon{
+	height: 32.5px;
+	margin-top: 17px;
+	padding: 1.5px;
+}
+nav ul .search-icon input{
+	text-align: center;
+	width: 130px;
+	font-size: 90%;
+	margin-right: 0px;
+	font-family: comic sans ms;
+	font-weight: bold;
+	color: black;
+	cursor: text;
+}
+nav ul .search-icon input:hover{
+	background: black;
+	color: white;
+}
+nav ul .search-icon i{
+	background: #f5f5f5;
+	margin: .5px;
+	padding: 4.5px;
+}
+nav ul .search-icon i#abc{
+	color: #f5f5f5;
+	background: black;
+	cursor: pointer;
+}
+nav ul .search-icon i#abc:hover{
+	color: black;
+	background: #f5f5f5;
+	transition: .5s;
+}
+
+.mininav{
+	background: linear-gradient(to right, white, gray);
+	height: 50px;
+	margin: 5px;
+	border: 2px solid gray;
+}
+.mininav ul{
+	display: flex;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-top: 10px;
+}
+.mininav ul li{
+	padding: 2px;
+	background: rgba(0,0,0,.3);
+	text-align: center;
+	font-weight: light;
+	font-family: pacifico;
+	font-size: 12px;
+	color: #09090a;
+}
+
+main {
+display: flex;
+justify-content: space-around;
+
+}	
+	
+main div.box1{
+	position: relative;
+	text-align: center;
+	border: 5px solid lightseagreen;
+	border-radius: 35px 0 35px 0;
+	margin: 0 0 0 10px;
+	width: 440px;
+	height: 360px;
+	background: url(images/rob.jpg);
+	background-size: cover;
+}
+main div.box1 a{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: -50px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: pacifico;
+}
+main div.box1:hover a{
+	background-color: rgba(0,0,0,.8);
+	color: #f5f5f5;
+	opacity: 1;
+	border-radius: 5px;
+	transition: .5s;
+}
+main div.box2{
+	position: relative;
+	text-align: center;
+	border: 5px solid lightseagreen;
+	border-radius: 30px 0 30px 0;
+	margin: 0 0 0 10px;
+	width: 400px;
+	height: 320px;
+	background: url(images/benj.jpg);
+	background-size: cover;
+}
+main div.box2 a{
+	position: absolute;
+	margin-top: 125px;
+	margin-left: -60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: pacifico;
+}
+main div.box2:hover a{
+	background-color: rgba(0,0,0,.7);
+	color: #f5f5f5;
+	opacity: 1;
+	border-radius: 5px;
+	transition: 2s;
+}
+main div.box3{
+	position: relative;
+	text-align: center;
+	border: 5px solid lightseagreen;
+	border-radius: 25px 0 25px 0;
+	margin: 0 0 0 10px;
+	width: 350px;
+	height: 280px;
+	background: url(images/imgb.jpg);
+	background-size: cover;
+}
+main div.box3 a{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: -60px;
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+	font-family: pacifico;
+}
+main div.box3:hover a{
+	background-color: rgba(0,0,0,.5);
+	color: #f5f5f5;
+	opacity: 1;
+	border-radius: 5px;
+	transition: 2s;
+}
+
+.main2{
+	opacity: .5;
+	margin: 30px 100px;
+	align-items: center;
+	border: 15px solid black;
+}
+
+.main2:hover{
+	background: black;
+	transition: 2s;
+}
+.main2 h1{
+	background: linear-gradient(to left, #bfb3b2, gray);
+	text-align: center;
+	font-family: comic sans ms;
+	color: black;
+	opacity:1;
+	cursor: pointer;
+	transition: 1s;
+}
+.main2:hover h1{
+	background: black;
+	border-radius: 5px 0 5px;
+	color: white;
+	opacity: 1;
+	transition: 1s;
+}
+
+.main2 h1:hover{
+	color: orange;
+	opacity: 1;
+	transition: 1s;
+}
+
+.main3{
+	margin: 0px 30px 0px 30px;
+	width: auto;
+	height: 593px;
+	background: url(images/man.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.main3text{
+	margin-right: 5px;
+	float: right;
+	margin-top: 100px;
+	background: rgba(0,0,0,.3);
+}
+.main3text h3{
+	color: black;
+	text-align: left;
+	margin: 0 0px 5px 0;
+	font-family: comic sans ms;
+	font-size: 30px;
+	line-height: 40px;
+	padding: 0 10px 10px 20px;
+}
+.main3text h3:hover{
+	color: orange;
+	background: rgba(0,0,0,.9);
+	transition: .1s;
+}
+.main3text p{
+	font-weight: bold;
+	font-family: comic sans ms;
+	word-spacing: -1px;
+	font-size: 15px;
+	padding: 0 10px 0 10px;
+	color: #242629;
+}
+.main3text p:hover{
+	color: #f5f5f5;
+	background: rgba(0,0,0,.7);
+	transition: 2s;
+}
+.main3text a{
+	font-family: comic sans ms;
+	color: #242629;
+	margin: 15px 0px 10px 5px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 18px;
+	border-radius: 10px;
+	padding: 0px 10px 0px 10px;
+	text-align: left;
+}
+.main3text a:hover{
+	color: #f5f5f5;
+	background: rgba(0,0,0,.7);
+	transition: 2s;
+}
+.main3text a:hover i#cu{
+	color: green;
+	background: white;
+	transition: 1s;
+}
+.main3text a:hover i#fb{
+	color: #3b5998;
+	background: white;
+	transition: 1s;
+}
+.main3text a:hover i#tw{
+	color: #00acee;
+	background: white;
+	transition: 1s;
+}
+.main3text a:hover i#ig{
+	background: -webkit-linear-gradient(#feda75,#fa7e1e,#d62976,#962fbf,#4f5bd5);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	transition: 1s;
+}
+.main4{
+	display: flex;
+	justify-content: space-evenly;
+	margin: 5px 40px 5px 40px;
+}
+.main4 div{
+	width: 300px;
+	height: 240px;
+	border: 1px solid black;
+}
+.main4 .flow1{
+	background: url(images/lagos1.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+.main4 .flow2{
+	background: url(images/lagos2.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.main4 .flow3{
+	background: url(c.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.main4 .flow4{
+	background: url(images/brownroofs.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.main4 div p{
+
+	padding: 0 10px;
+	text-align: center;
+	margin: 100px 10px 0px 10px;
+	color: rgba(227, 209, 227, .7);
+	font-family: comic sans ms;
+	font-size: 15px;
+	font-weight: bold;
+	background: rgba(13,11,13,.2);
+}
+.main4 div:hover p{
+	background: rgba(0,0,0,.9);
+	color: orange;
+	transition: 3s;
+}
+
+footer{
+	background: black;
+	padding: 10px;
+	padding-bottom: 1px;
+	margin: 10px 10px;
+	margin-bottom: 3px;
+}
+footer a, p{
+	color: white;
+}
+footer p{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: comic sans ms;
+	letter-spacing: .2rem;
+	color: #f5f5f5;
+}
+footer a{
+	line-height: 2;
+	font-size: 13px;
+}
+
+@media only screen and (max-width: 900px) {
+	
+
+	nav ul li.logo a{
+		font-size: 35px;
+	}
+	nav ul li.logo a:hover{
+		transition: .5s;
+	}
+	nav ul div.items{
+		margin-left: 80px;
+	}
+	nav ul div.items a:hover{
+		transition: .5s;
+	}
+	main div.box1{
+		border: 5px solid lightseagreen;
+		border-radius: 0;
+		margin: 2px;
+	}
+	main div.box2{
+		border: 5px solid lightseagreen;
+		border-radius: 0;
+		margin: 2px;
+	}
+	main div.box3{
+		border: 5px solid lightseagreen;
+		border-radius: 0;
+		margin: 2px;
+	}
+	
+}
+
+@media only screen and (max-width: 650px) {
+		
+	main div.box1 a{
+		padding-top: 0px;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: pacifico;
+		opacity: .8;
+	}
+	main div.box1:hover a{
+		background-color: rgba(0,0,0,.8);
+		border: 0;
+		transition: 1s;
+	}
+	main div.box2{
+		border-radius: 0;
+		border: 5px solid lightseagreen;
+		margin: 0;
+		width: 500px;
+		height: 300px;
+	}
+	main div.box2 a{
+		padding-top: 0px;
+		text-decoration: none;
+		font-size: 20px;
+		font-family: pacifico;
+		opacity: .8;
+	}
+	main div.box2:hover a{
+		background-color: rgba(0,0,0,.8);
+		border: 0;
+		transition: 1s;
+	}
+	main div.box3{
+		border: 5px solid lightseagreen;
+		border-radius: 0;
+		margin: 0;
+		width: 500px;
+		height: 300px;
+	}
+	main div.box3 a{
+		padding-top: 0px;
+		text-decoration: none;
+		font-size: 16px;
+		font-family: pacifico;
+		opacity: .8;
+	}
+	main div.box3:hover a{
+		background-color: rgba(0,0,0,.8);
+		border: 0;
+		transition: 1s;
+	}
+	.mininav{
+		height: 80px;
+		margin: 0px;
+		border: 1px solid gray;
+	}
+	.mininav ul{
+		display: flex;
+		justify-content: space-around;
+		list-style-type: none;
+		margin-top: 15px;
+	}
+	.mininav ul li{
+		margin-right: 2px;
+		padding: 1px;
+	}
+	
+	nav ul{
+		display: flex;
+		justify-content: center;
+		list-style: none;
+	}
+	nav ul li.logo a{
+		text-decoration: none;
+		align-items: left;
+		color: #f5f5f5;
+		font-size: 20px;
+		font-family: comic sans ms;
+		font-weight: bold;
+		margin: 0;
+		padding: 0px 0px 2px 0px;
+		border-radius: 1px;
+		cursor: pointer;
+	}
+	nav ul li.logo a:hover{
+		background: black;
+		color: lightseagreen;
+		transition: .5s;
+	}
+
+	nav ul div.items{
+		margin-top: 0px;
+		margin-bottom: 0px;
+		align-items: center;
+		margin-left: 5px;
+	}
+	nav ul div.items a{
+		margin: 0 3px;
+		color: #f5f5f5;
+		font-family: pacifico;
+		text-decoration: none;
+		padding: 0;
+		border-radius: 3px;
+		font-size: 14px;
+		cursor: pointer;
+		font-weight: lighter;
+	}
+	nav ul div.items a:hover{
+		border-radius: 5px 0 5px;
+		background: #e2e3cf;
+		color: #080807;
+		transition: 2s;
+	}
+
+	nav ul li.search-icon{
+		height: 32.5px;
+		margin-top: 17px;
+		padding: 1.5px;
+	}
+	nav ul .search-icon input{
+		text-align: center;
+		width: 130px;
+		font-size: 90%;
+		margin-right: 0px;
+		font-family: comic sans ms;
+		font-weight: bold;
+		color: black;
+		cursor: text;
+	}
+	nav ul .search-icon input:hover{
+		background: black;
+		color: white;
+	}
+	nav ul .search-icon i{
+		background: #f5f5f5;
+		margin: .5px;
+		padding: 4.5px;
+	}
+	nav ul .search-icon i#abc{
+		color: #f5f5f5;
+		background: black;
+		cursor: pointer;
+	}
+	nav ul .search-icon i#abc:hover{
+		color: black;
+		background: #f5f5f5;
+		transition: .5s;
+	}
+}	
