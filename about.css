@@ -28,7 +28,7 @@ body{
 .description p{
 	background: rgba(0,0,0,.6);
 	font-weight: lighter;
-	font-family: pacifico;
+	font-family: comic sans ms;
 	font-size: 18px;
 	color: black;
 	margin: 0 10px 10px;
@@ -46,7 +46,7 @@ body{
 }
 
 .description #more{
-	font-family: pacifico;
+	font-family: comic sans ms;
 	margin: 10px;
 	margin-bottom: 0;
 	padding: 5px;
